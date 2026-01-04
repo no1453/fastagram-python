@@ -14,7 +14,7 @@ from concurrent.futures import ProcessPoolExecutor, as_completed
 import multiprocessing
 
 # ----------------------------- Dictionary Loading -----------------------------
-DICTIONARY_PATH = "words"
+DICTIONARY_PATH = "words.txt"
 if not os.path.exists(DICTIONARY_PATH):
     raise FileNotFoundError(f"Dictionary file '{DICTIONARY_PATH}' not found.")
 
@@ -351,3 +351,4 @@ if __name__ == "__main__":
                command=lambda: [anagrams_text.config(state=tk.NORMAL), anagrams_text.delete(1.0, tk.END), anagrams_text.config(state=tk.DISABLED)]).pack(anchor=tk.W, pady=2)
 
     root.mainloop()
+
