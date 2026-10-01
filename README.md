@@ -15,3 +15,4 @@ Note on the "words" list: must be in the same directory as the .exe or .py scrip
 list of possible English words to consider.   I've been working on weeding out proper names, achaic terms,
 excessively technical terms, and other such "word detrius".   It is a work in progress.
 If you want to edit it yourself, it's just one word per line, each line ended by a newline character, no punctuation.
+UPDATE: now there are two word lists, same format, one for common words only, and one for all words.
